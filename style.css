@@ -8,8 +8,29 @@
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
-    margin-top: 30px;
+    
 }
 .carousel-item{
-    padding: 20px 40px;
+    padding: 20px 120px;
 }
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.Smartphone{
+    margin-top: 30px;
+}
+.card-body{
+    text-align: center;
+}
+.Laptop{
+    margin-top: 30px;
+}
+.laptop-header{
+    display: flex;
+}
+.ms-auto{
+    color: orange;
+}
+
