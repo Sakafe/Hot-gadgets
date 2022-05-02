@@ -1,7 +1,9 @@
 .carousel-bg{
-    background-image: url('images/bg-1.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url('images/bg-2.png'),url('images/bg-1.png');
+                      
+    background-size: 100px,50px;
+    background-repeat: no-repeat,no-repeat;
+    background-position: 0px 300px,720px 0px;
 }
 .btn{
     background-color: black;
@@ -33,4 +35,21 @@
 .ms-auto{
     color: orange;
 }
+h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section{
+    padding-top: 70px;
+}
+.section h2.section-head::after{
+    background-color: coral;
+    content: "";
+    display: block;
+    width: 100px;
+}
+
+
+
 
